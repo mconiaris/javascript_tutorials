@@ -1,12 +1,18 @@
 <!DOCTYPE html>
 <html>
-<head>
-	<title>NaN Tutorial</title>
-	<script type="text/javascript">
-		
-	</script>
-</head>
-<body>
-
-</body>
+	<head>
+		<title>NaN Tutorial</title>
+		<script type="text/javascript">
+			
+		</script>
+	</head>
+	<body>
+		<h1>NaN</h1>
+		<h2>Description</h2>
+	 	<p><code>NaN</code> is a property of the global object.</p>
+	 	<p>The initial value of <code>NaN</code> is Not-A-Number — the same as the value of <code>Number.NaN</code>. In modern browsers, <code>NaN</code> is a non-configurable, non-writable property. Even when this is not the case, avoid overriding it.</p>
+	 	<p>It is rather rare to use <code>NaN</code> in a program. It is the returned value when Math functions fail (Math.sqrt(-1)) or when a function trying to parse a number fails (parseInt("blabla")).</p>
+	 	<h2>Testing against <code>NaN</code></h2>
+		<p><code>NaN</code> compares unequal (via ==, !=, ===, and !==) to any other value -- including to another NaN value.  Use Number.isNaN() or isNaN() to most clearly determine whether a value is NaN.  Or perform a self-comparison: NaN, and only NaN, will compare unequal to itself.</p>
+	</body>
 </html>
