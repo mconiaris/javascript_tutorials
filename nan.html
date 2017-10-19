@@ -7,6 +7,11 @@
 			console.log(Number.NaN === NaN);
 			console.log(isNaN(NaN));
 			console.log(isNaN(Number.NaN));
+
+			function valueIsNaN(v) { 
+				return v !== v; 
+			}
+			valueIsNaN(1);
 		</script>
 	</head>
 	<body>
