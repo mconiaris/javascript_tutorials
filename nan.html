@@ -13,6 +13,6 @@
 	 	<p>The initial value of <code>NaN</code> is Not-A-Number — the same as the value of <code>Number.NaN</code>. In modern browsers, <code>NaN</code> is a non-configurable, non-writable property. Even when this is not the case, avoid overriding it.</p>
 	 	<p>It is rather rare to use <code>NaN</code> in a program. It is the returned value when Math functions fail (<code>Math.sqrt(-1)</code>) or when a function trying to parse a number fails (<code>parseInt("blabla")</code>).</p>
 	 	<h2>Testing against <code>NaN</code></h2>
-		<p><code>NaN</code> compares unequal (via ==, !=, ===, and !==) to any other value -- including to another NaN value.  Use Number.isNaN() or isNaN() to most clearly determine whether a value is NaN.  Or perform a self-comparison: NaN, and only NaN, will compare unequal to itself.</p>
+		<p><code>NaN</code> compares unequal (via ==, !=, ===, and !==) to any other value -- including to another NaN value.  Use <code>Number.isNaN()</code> or <code>isNaN()</code> to most clearly determine whether a value is NaN.  Or perform a self-comparison: NaN, and only NaN, will compare unequal to itself.</p>
 	</body>
 </html>
