@@ -6,5 +6,11 @@
 	<body>
 		<h1>undefined</h1>
 		<p>The global <code>undefined</code> property represents the primitive value <code>undefined</code>. It is one of JavaScript's primitive types.</p>
+		<h2>Description</h2>
+		<p><code>undefined</code> is a property of the global object; i.e., it is a variable in global scope. The initial value of <code>undefined</code> is the primitive value <code>undefined</code>.</p>
+		<p>In modern browsers (JavaScript 1.8.5 / Firefox 4+), <code>undefined</code> is a non-configurable, non-writable property per the ECMAScript 5 specification. Even when this is not the case, avoid overriding it.</p>
+		<p>A variable that has not been assigned a value is of type undefined. A method or statement also returns <code>undefined</code> if the variable that is being evaluated does not have an assigned value. A function returns <code>undefined</code> if a value was not <code>returned</code>.</p>
+		<h2>Strict equality and undefined</h2>
+		<p>You can use <code>undefined</code> and the strict equality and inequality operators to determine whether a variable has a value. In the following code, the variable <code>x</code> is not defined, and the <code>if</code> statement evaluates to true.</p>
 	</body>
 </html>
